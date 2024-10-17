@@ -23,7 +23,7 @@
 		]
 	},
 	"mixins": [
-		"articsurvival.mixins.json",
+      "arcticsurvival.mixins.json",
 		{
 			"config": "articsurvival.client.mixins.json",
 			"environment": "client"

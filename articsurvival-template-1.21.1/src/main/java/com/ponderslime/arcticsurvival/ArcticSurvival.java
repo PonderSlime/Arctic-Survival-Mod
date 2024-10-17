@@ -6,7 +6,7 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
 public class ArcticSurvival implements ModInitializer {
-	public static final String MOD_ID = "articsurvival";
+	public static final String MOD_ID = "arcticsurvival";
 
 	// This logger is used to write text to the console and the log file.
 	// It is considered best practice to use your mod id as the logger's name.
@@ -22,5 +22,6 @@ public class ArcticSurvival implements ModInitializer {
 		LOGGER.info("Hello Fabric world!");
 		ModItems.initialize();
 		ModBlocks.initialize();
+		ModArmorMaterials.initialize();
 	}
 }
